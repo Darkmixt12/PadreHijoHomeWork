@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class BisAbueloComponent {
 
+  edadBisAbuelo: number = 80
+
+  edadAbuelo!: number
+
+  recibirEdadAbuelo(edad: number): void{
+    this.edadAbuelo = edad;
+  }
 }

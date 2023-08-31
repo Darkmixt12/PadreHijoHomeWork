@@ -1,7 +1,9 @@
 <div class="container">
 
     <h2>Componente Abuelo</h2>
-    <p> Mi edad es de : </p>
-    <p> La edad de mi hijo (Padre) es de : </p>
-    <p> La edad de mi Padre (Bis-Abuelo es de : )</p>
+    <p> Mi edad es de :  {{edadAbuelo}} </p>
+    <p> La edad de mi hijo (Padre) es de : {{edadPadre}} </p>
+    <p> La edad de mi Padre (Bis-Abuelo) es de : {{edadBisAbuelo}} </p>
+
+    <app-padre2 [edadAbuelo]="edadAbuelo" (enviarEdadPadre)="recibirEdadPadre($event)"></app-padre2>
 </div>

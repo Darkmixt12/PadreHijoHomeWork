@@ -1,1 +1,10 @@
-<p>padre works!</p>
+<div class="container">
+
+    <h2>Componente Padre</h2>
+    <p> Mi edad es de : {{edadPadre}} </p>
+    <p> La edad de mi hijo (Hijo) es de : {{edadHijo}} </p>
+    <p> La edad de mi Padre (Abuelo) es de : {{edadAbuelo}} </p>
+
+    <app-hijo2 (enviarEdad)="recibirEdadHijo($event)" [edadPadre]="edadPadre"></app-hijo2>
+
+</div>

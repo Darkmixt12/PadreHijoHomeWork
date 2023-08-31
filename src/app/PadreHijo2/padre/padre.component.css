@@ -1,0 +1,17 @@
+.container{
+    background: rgb(138, 103, 236);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+h2{
+    padding-top: 30px
+}

@@ -1,0 +1,13 @@
+.container{
+    background: rgb(31, 167, 76);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    color: whitesmoke;
+}

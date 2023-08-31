@@ -8,6 +8,8 @@ import { PadreComponent } from './padreHijo/padre/padre.component';
 import { HijoComponent } from './padreHijo/hijo/hijo.component';
 import { BisAbueloComponent } from './PadreHijo2/bis-abuelo/bis-abuelo.component';
 import { AbueloComponent2 } from './PadreHijo2/abuelo/abuelo.component';
+import { PadreComponent2 } from './PadreHijo2/padre/padre.component';
+import { HijoComponent2 } from './PadreHijo2/hijo/hijo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { AbueloComponent2 } from './PadreHijo2/abuelo/abuelo.component';
     PadreComponent,
     HijoComponent,
     BisAbueloComponent,
-    AbueloComponent2
+    AbueloComponent2,
+    PadreComponent2,
+    HijoComponent2
   ],
   imports: [
     BrowserModule

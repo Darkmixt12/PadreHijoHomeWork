@@ -1,9 +1,10 @@
 .container{
     background: rgb(236, 103, 208);
     width: 600px;
-    margin-top: 45px;
     height: 600px;
-    text-align: center
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 p{
