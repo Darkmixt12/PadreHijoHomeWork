@@ -1,0 +1,9 @@
+
+<div class="container">
+    <p id="unique">Componente Padre</p>
+    <p>Mi edad es {{fatherAge}} </p>
+    <p>La edad de mi <strong class="strongHijo"> (hijo)</strong> es {{sonAge}} </p>
+    <p>La edad de mi padre <strong>(abuelo)</strong> es {{abueloAge}} </p>
+    <app-hijo [fatherAge]="fatherAge" (edadHijo)="recibirEdadHijo($event)" ></app-hijo>
+</div>
+
